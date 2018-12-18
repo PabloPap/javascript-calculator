@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="a mathematical calculator that use the functionality of javascript languge">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="calculator,javascript" />
+  <title>Javascript Calculator</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+  <h1></h1>
+  <div class="container">
+    <img src="img/Untitled-1.png">
+    <div class="screen"></div>
+    <div class="btn-nums">
+      <p>
+        <input type="button" class="button-clearOne" value="&#8592">
+        <input type="button" class="button-clearEntry" value="CE">
+        <input type="button" class="button-clearAll" value="C">
+        <input type="button" class="button-plusMinus" value="+/-">
+        <input type="button" class="button-sqrt" value="&radic;">
+      </p>
+      <p>
+        <input type="button" class="button" value="7">
+        <input type="button" class="button" value="8">
+        <input type="button" class="button" value="9">
+        <input type="button" class="button-symbols" value="/">
+        <input type="button" class="button-symbols" value="&xscr;^&yscr;">
+      </p>
+      <p>
+        <input type="button" class="button" value="4">
+        <input type="button" class="button" value="5">
+        <input type="button" class="button" value="6">
+        <input type="button" class="button-symbols" value="*">
+        <input type="button" class="button-reciprocal" value="1/&xscr;">
+      </p>
+      <p>
+        <input type="button" class="button" value="1">
+        <input type="button" class="button" value="2">
+        <input type="button" class="button" value="3">
+        <input type="button" class="button-symbols" value="-">
+        <input type="button" id="equal-btn" value="=">
+      </p>
+      <p>
+        <input type="button" id="zero-btn" class="button" value="0">
+        <input type="button" class="button" value="." id="point">
+        <input type="button" class="button-symbols" value="+">
+      </p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- Math.js Library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.8.1/math.min.js" integrity="sha256-kcaIAXhudB+0WAWlInY2GhDwWYYryyfuuHp/fmwhtZs=" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

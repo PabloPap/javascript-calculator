@@ -1,0 +1,63 @@
+body {
+    background-image: url(img/wood16.jpg);
+    background-repeat: round;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.button,.button-symbols,.button-clearOne,.button-clearEntry,.button-clearAll,.button-plusMinus,.button-sqrt,.button-reciprocal,.button-percentage,#equal-btn {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background: none;
+    color: white;
+    bottom: 515px;
+    right: -9px;
+    font-size: 25px;
+    margin: 15px 10px 3px 5px;
+    font-family: "varela round", sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    outline:none;
+    border-radius: 35px;
+}
+
+#zero-btn {
+    right: 23px;
+}
+
+#equal-btn {
+    bottom: 480px;
+}
+
+.button:active,.button-symbols:active,.button-clearOne:active,.button-clearEntry:active,.button-clearAll:active,.button-plusMinus:active,.button-sqrt:active,.button-reciprocal:active,.button-percentage:active {
+    background-color: #1A1A1A;
+    transform: translateY(1px);
+    opacity: 0.9;
+}
+
+#equal-btn:active {
+    background-color: #821212;
+    transform: translateY(1px);
+    opacity: 0.9;
+}
+
+.screen {
+    position: relative;
+    height: 62px;
+    line-height: 62px;
+    width: 340px;
+    margin-left: 303px;
+    text-align: right;
+    font-size: 49px;
+    opacity: 0.5;
+    top: -521px;
+    border: none;
+    background: none;
+    outline: none;
+    color: snow;
+}
